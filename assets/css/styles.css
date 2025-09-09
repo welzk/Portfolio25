@@ -39,6 +39,12 @@ td {
   filter: invert(100%);
 }
 
+@media (min-width: 768px) {
+  .cv {
+    position: absolute;
+  }
+}
+
 #Modal-Cover {
   Position: Fixed;
   Z-Index: 1;
@@ -132,7 +138,7 @@ a {
 
 @media (max-width: 768px) {
   #mobilehero {
-    height: 100vh;
+    height: 95vh;
   }
 }
 
@@ -146,5 +152,15 @@ a {
 
 #interaction {
   height: 60vh;
+}
+
+.cv {
+  position: fixed;
+}
+
+@media (max-width: 768px) {
+  .cv {
+    position: sticky;
+  }
 }
 
