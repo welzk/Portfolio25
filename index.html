@@ -162,7 +162,18 @@
 <script type="module">
     import { scroll, animate, inView } from "https://cdn.jsdelivr.net/npm/motion@12.23.12/+esm"
 
-   
+    // Progress Bar
+    const progressBar = document.createElement('div')
+    progressBar.style.cssText = `
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 2px;
+        background: linear-gradient(90deg, #F07503, #ff6b6b);
+        z-index: 10000;
+    `
+    document.body.appendChild(progressBar)
 
     // CSS Style hinzufügen um Standard-Cursor überall zu verstecken
     const style = document.createElement('style')
