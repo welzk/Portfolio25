@@ -166,12 +166,12 @@ a {
 }
 
 *::selection {
-  background: #F07503;
+  background: #212529;
   color: #ffffff;
 }
 
 *::-webkit-selection {
-  background: #F07503;
+  background: #212529;
   color: #ffffff;
 }
 
